@@ -1,0 +1,232 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400;700&display=swap');
+
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar Styling */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar {
+    background-color: #1a1a1a; /* Default background color */
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#navbar ul li a {
+    color: #fff; /* Default font color */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+}
+
+/* Hover Effects */
+#navbar ul li a:hover {
+    color: #ffd700; /* Text color on hover */
+    background-color: #333; /* Background color on hover */
+    transform: scale(1.1); /* Slightly enlarge the menu item */
+}
+
+/* Scroll Effects */
+.scrolled {
+    background-color: #333; /* Darker background color when scrolled */
+    padding: 10px 0; /* Reduce padding when scrolled */
+}
+
+/* Banner Image */
+.banner {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+section {
+    padding: 100px 20px;
+    margin-top: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    font-size: 1.3em;
+    color: #1a1a1a;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.highlight:hover {
+    color: #ffd700;
+    transform: scale(1.05);
+}
+
+/* About Section Image */
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* About Section Features */
+.about-features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.feature {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.feature p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #e9ecef;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section Form Styling */
+section form label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+section form input, section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+section form input[type="submit"] {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+section form input[type="submit"]:hover {
+    background-color: #ffd700;
+    color: #1a1a1a;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
