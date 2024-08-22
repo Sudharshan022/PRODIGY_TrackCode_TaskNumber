@@ -23,4 +23,5 @@ To view or test this project locally, follow these steps:
 1. **Clone the Repository**
 
    ```bash
+   cd PRODIGY_TrackCode_TaskNumber
  github clone https://sudharshan022.github.io/PRODIGY_TrackCode_TaskNumber/
