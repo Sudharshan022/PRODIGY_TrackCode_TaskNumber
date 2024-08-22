@@ -25,3 +25,22 @@ To view or test this project locally, follow these steps:
    ```bash
    cd PRODIGY_TrackCode_TaskNumber
  github clone https://sudharshan022.github.io/PRODIGY_TrackCode_TaskNumber/
+
+#### **Deployment**
+
+If applicable, provide details on how the project is deployed or where it can be accessed online.
+
+```markdown
+## Deployment
+
+This project is deployed on GitHub Pages. You can view it live here: [https://sudharshan022.github.io/PRODIGY_TrackCode_TaskNumber/](https://sudharshan022.github.io/PRODIGY_TrackCode_TaskNumber/)
+## Contributing
+
+Feel free to open issues or submit pull requests if you have suggestions for improvements or bug fixes.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Acknowledgments
+
+- Thanks to GitHub Pages for hosting.
+- Inspired by various web design tutorials and examples.
